@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div>{{name}}</div>
+        <span>{{age}}</span>
+        <br/>
+    </div>
+    <script src="vue.js"></script>
+    <script>
+        // 响应式数据变化
+        const vm = new Vue({
+            // 需要将数据解析到el元素上
+            el:'#app',
+            data() {
+                return {
+                    name: 'cyt',
+                    age: 20,
+                    add: {
+                        text:1
+                    },
+                    arr:[2,4,6,{a:1}]
+                }
+            }
+        })
+        
+    </script>
+</body>
+</html>

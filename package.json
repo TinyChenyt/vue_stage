@@ -1,0 +1,22 @@
+{
+  "name": "vue-stage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "rollup -cw"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "rollup": "^3.17.2",
+    "rollup-plugin-babel": "^4.4.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1"
+  }
+}
